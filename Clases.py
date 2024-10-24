@@ -105,7 +105,7 @@ class Inventario:
                 print(f"Precio: {producto.get_precio()}")
                 print(f"Cantidad: {producto.get_cantidad()}")
                 return
-        print(f"Producto '{nombre}' no encontrado en el inventario")
+        print(f"Producto {nombre} no encontrado en el inventario")
 
 def Menu():
     # Creation of inventory
